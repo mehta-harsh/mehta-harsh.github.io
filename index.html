@@ -5,109 +5,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Harsh Mehta | Cosmology</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <style>
     body {
-      font-family: 'Inter', sans-serif;
-      background: #f5f7fa;
       margin: 0;
-      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f3f4f6;
       color: #222;
     }
 
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(135deg, #4f46e5, #22c55e);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* CONTENT */
     .container {
-      max-width: 900px;
-      margin: 60px auto;
+      max-width: 1000px;
+      margin: -60px auto 60px;
       background: white;
-      padding: 50px;
       border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    }
-
-    h1 {
-      font-size: 2.6em;
-      margin-bottom: 5px;
-    }
-
-    .subtitle {
-      font-size: 1.2em;
-      color: #555;
-      margin-bottom: 30px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     }
 
     h2 {
       margin-top: 40px;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 6px;
-    }
-
-    p {
-      line-height: 1.7;
-      font-size: 1.05em;
+      color: #333;
     }
 
     ul {
       padding-left: 20px;
     }
 
-    li {
-      margin-bottom: 8px;
-    }
-
     a {
-      color: #2563eb;
-      text-decoration: none;
+      color: #4f46e5;
       font-weight: 500;
+      text-decoration: none;
     }
 
     a:hover {
       text-decoration: underline;
     }
 
-    .footer {
-      margin-top: 50px;
-      font-size: 0.9em;
-      color: #666;
+    .nav {
       text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .nav a {
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #666;
+      font-size: 0.9em;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="hero">
     <h1>Harsh Mehta</h1>
-    <div class="subtitle">PhD Student in Cosmology</div>
+    <p>PhD Student in Cosmology · CMB · Large Scale Structure · Axions</p>
+  </div>
 
-    <p>
-      I am a PhD student working on problems in cosmology, with a focus on the
-      Cosmic Microwave Background, large-scale structure, and beyond-ΛCDM physics.
-    </p>
+  <div class="container">
 
-    <h2>Research</h2>
-    <p>
-      My research focuses on cosmology, CMB physics, and new physics beyond ΛCDM.
-    </p>
-    <p>
-      <a href="research.html">→ Read more about my research</a>
-    </p>
-
-    <h2>Publications</h2>
-    <p>
-      Coming soon. (Links to arXiv and ADS will appear here.)
-    </p>
-
-    <h2>Contact</h2>
-    <p>
-      Email: yourname@institute.edu<br>
-      GitHub: <a href="https://github.com/mehta-harsh">github.com/mehta-harsh</a>
-    </p>
-
-    <div class="footer">
-      © 2025 Harsh Mehta
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="#">CV</a>
+      <a href="#">Contact</a>
     </div>
+
+    <h2>About Me</h2>
+    <p>
+      I am a PhD student working on theoretical and observational cosmology,
+      focusing on the Cosmic Microwave Background, large-scale structure,
+      and physics beyond the Standard Model.
+    </p>
+
+    <h2>Research Interests</h2>
+    <ul>
+      <li>CMB polarization and foregrounds</li>
+      <li>Kinematic Sunyaev–Zel'dovich effect</li>
+      <li>Axions and early-universe physics</li>
+    </ul>
+
+    <footer>
+      © 2025 Harsh Mehta
+    </footer>
+
   </div>
 
 </body>
