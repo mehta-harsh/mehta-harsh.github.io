@@ -2198,6 +2198,9 @@ input, select, textarea {
 }
 
 #nav a span {
-  font-size: 0.8em;
+  white-space: nowrap;
+  padding: 0.6em 1em;
+  max-width: none;
+  width: auto;
+  text-align: center;
 }
-
