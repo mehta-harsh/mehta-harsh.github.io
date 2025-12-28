@@ -2196,23 +2196,21 @@ input, select, textarea {
   display: block;
   margin: 0 auto 1.5em auto;
 }
-
-/* Fix tooltip size, alignment, and readability */
+/* Fix tooltip overflow & size (Astral theme) */
 #nav a span {
   white-space: nowrap;
-  padding: 0.6em 1em;
-  font-size: 0.9em;
+  font-size: 0.85em;      /* restore normal size */
+  padding: 0.4em 0.8em;
   line-height: 1.2;
-  text-align: center;
 
-  /* positioning */
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 3.2em;
-
-  /* appearance */
   background: #000;
   color: #fff;
+
+  position: absolute;
+  left: 50%;
+  bottom: 2.8em;
+  transform: translateX(-50%);
+
   border-radius: 4px;
   box-sizing: border-box;
 }
