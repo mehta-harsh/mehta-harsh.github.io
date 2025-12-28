@@ -2197,10 +2197,22 @@ input, select, textarea {
   margin: 0 auto 1.5em auto;
 }
 
+/* Fix tooltip size, alignment, and readability */
 #nav a span {
   white-space: nowrap;
-  padding: 0.7em 1em;
-  max-width: none;
-  width: auto;
-  
+  padding: 0.6em 1em;
+  font-size: 0.9em;
+  line-height: 1.2;
+  text-align: center;
+
+  /* positioning */
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3.2em;
+
+  /* appearance */
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
