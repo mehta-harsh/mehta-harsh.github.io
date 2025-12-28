@@ -2197,9 +2197,4 @@ input, select, textarea {
   margin: 0 auto 1.5em auto;
 }
 /* Fix tooltip size ONLY for Academic Engagement */
-#nav a[href="#teaching"] span {
-  font-size: 0.3em;
-  padding: 0.5em 1em;
-  white-space: nowrap;
-  max-width: none;
-}
+
