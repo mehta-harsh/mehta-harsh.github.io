@@ -2198,25 +2198,3 @@ input, select, textarea {
 }
 /* Fix tooltip size ONLY for Academic Engagement */
 /* Fix tooltip overlap for long labels like Academic Engagement */
-#nav a[href="#teaching"] span {
-  background: #000;
-  color: #fff;
-  padding: 0.6em 0.9em;
-  line-height: 1.2;
-  white-space: normal;
-  text-align: center;
-
-  position: absolute;
-  left: 50%;
-  bottom: 3.4em;
-  transform: translateX(-50%);
-
-  z-index: 1000;
-  border-radius: 4px;
-}
-
-/* Ensure icon stays behind tooltip */
-#nav a::before {
-  z-index: 1;
-}
-
