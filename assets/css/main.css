@@ -2198,8 +2198,8 @@ input, select, textarea {
 }
 /* Fix tooltip size ONLY for Academic Engagement */
 #nav a[href="#teaching"] span {
-  font-size: 0.8em;
-  padding: 0.4em 0.8em;
+  font-size: 0.3em;
+  padding: 0.3em 0.8em;
   white-space: nowrap;
   max-width: none;
 }
