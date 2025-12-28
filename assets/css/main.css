@@ -2196,21 +2196,10 @@ input, select, textarea {
   display: block;
   margin: 0 auto 1.5em auto;
 }
-/* Fix tooltip overflow & size (Astral theme) */
-#nav a span {
-  white-space: nowrap;
-  font-size: 0.85em;      /* restore normal size */
+/* Fix tooltip size ONLY for Academic Engagement */
+#nav a[href="#teaching"] span {
+  font-size: 0.8em;
   padding: 0.4em 0.8em;
-  line-height: 1.2;
-
-  background: #000;
-  color: #fff;
-
-  position: absolute;
-  left: 50%;
-  bottom: 2.8em;
-  transform: translateX(-50%);
-
-  border-radius: 4px;
-  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: none;
 }
