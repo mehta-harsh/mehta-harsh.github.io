@@ -2192,10 +2192,6 @@ input, select, textarea {
   margin: 0 auto 1.5em auto;
 }
 
-#main > .panel {
-  border-radius: 20px !important;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-}
 
 /* Fix tooltip size ONLY for Academic Engagement */
 /* Fix tooltip overlap for long labels like Academic Engagement */
