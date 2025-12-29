@@ -2190,5 +2190,16 @@ input, select, textarea {
   display: block;
   margin: 0 auto 1.5em auto;
 }
+
+figure {
+  text-align: center;
+  margin: 2em 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.5em;
+}
 /* Fix tooltip size ONLY for Academic Engagement */
 /* Fix tooltip overlap for long labels like Academic Engagement */
