@@ -2205,5 +2205,35 @@ figcaption {
   color: #666;
   margin-top: 0.5em;
 }
+
+.content-row {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.content-row .text {
+  flex: 1;
+}
+
+.content-row .image {
+  flex: 1;
+  text-align: center;
+}
+
+.content-row img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Make it mobile friendly */
+@media (max-width: 768px) {
+  .content-row {
+    flex-direction: column;
+  }
+}
+
 /* Fix tooltip size ONLY for Academic Engagement */
 /* Fix tooltip overlap for long labels like Academic Engagement */
