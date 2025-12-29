@@ -2179,6 +2179,10 @@ input, select, textarea {
   margin: 0 auto 1.5em auto;
 }
 
-
+.axconv-image {
+  width: 400px;
+  display: block;
+  margin: 0 auto 1.5em auto;
+}
 /* Fix tooltip size ONLY for Academic Engagement */
 /* Fix tooltip overlap for long labels like Academic Engagement */
