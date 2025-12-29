@@ -2190,7 +2190,11 @@ input, select, textarea {
   display: block;
   margin: 0 auto 1.5em auto;
 }
-
+.cmb-image {
+  width: 350px;
+  display: block;
+  margin: 0 auto 1.5em auto;
+}
 figure {
   text-align: center;
   margin: 2em 0;
