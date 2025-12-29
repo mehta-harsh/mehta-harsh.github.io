@@ -2184,5 +2184,11 @@ input, select, textarea {
   display: block;
   margin: 0 auto 1.5em auto;
 }
+
+.galax-image {
+  width: 200px;
+  display: block;
+  margin: 0 auto 1.5em auto;
+}
 /* Fix tooltip size ONLY for Academic Engagement */
 /* Fix tooltip overlap for long labels like Academic Engagement */
