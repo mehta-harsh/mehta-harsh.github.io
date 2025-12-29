@@ -2186,12 +2186,17 @@ input, select, textarea {
 }
 
 .galax-image {
-  width: 350px;
+  width: 380px;
   display: block;
   margin: 0 auto 1.5em auto;
 }
 .cmb-image {
-  width: 350px;
+  width: 380px;
+  display: block;
+  margin: 0 auto 1.5em auto;
+}
+.reion-image{
+  width: 380px;
   display: block;
   margin: 0 auto 1.5em auto;
 }
