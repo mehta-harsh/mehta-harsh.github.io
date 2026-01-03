@@ -2246,5 +2246,10 @@ figcaption {
   }
 }
 
+a.no-underline {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* Fix tooltip size ONLY for Academic Engagement */
 /* Fix tooltip overlap for long labels like Academic Engagement */
